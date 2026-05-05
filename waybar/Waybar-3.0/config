@@ -45,12 +45,6 @@
         "Paused": "<span foreground='#cdd6f4'> 󰏥 </span>",
       },
     },
-    "custom/uptime": {
-    "format": " {}",
-    "interval": 30,
-    "exec": "$HOME/.local/bin/upt2",
-    "on-click" : "",
-  },
      "disk": {
     "interval": 1,
     "format": "<span color=\"#68b0d6\"> </span> {}%",
@@ -82,15 +76,6 @@
   "tray": {
     "icon-size": 20,
     "spacing": 8
-  },
-  "custom/filler": {
-    "format": " "
-  },
-  "custom/dot": {
-    "format": " "
-  },
-  "custom/clock-icon": {
-    "format": ""
   },
 
   "clock": {
@@ -172,7 +157,7 @@
 
  "custom/pacman": {
    "format": "  ",
-   "on-click": "blueberry"
+   "on-click": "kitty --class bluetui -e bluetui"
  },
   "custom-pacman-update-icon-background": {
     "format": ""
